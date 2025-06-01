@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/insurance-web-app/static/css/main.eb40500f.css",
-    "main.js": "/insurance-web-app/static/js/main.4592b0a0.js",
+    "main.css": "/insurance-web-app/static/css/main.e236a5aa.css",
+    "main.js": "/insurance-web-app/static/js/main.14ec261d.js",
     "static/media/call-button.jpg": "/insurance-web-app/static/media/call-button.116f16e34b95a1211d90.jpg",
     "static/media/payment-poster.webp": "/insurance-web-app/static/media/payment-poster.1634182956e82894e274.webp",
     "index.html": "/insurance-web-app/index.html",
-    "main.eb40500f.css.map": "/insurance-web-app/static/css/main.eb40500f.css.map",
-    "main.4592b0a0.js.map": "/insurance-web-app/static/js/main.4592b0a0.js.map"
+    "main.e236a5aa.css.map": "/insurance-web-app/static/css/main.e236a5aa.css.map",
+    "main.14ec261d.js.map": "/insurance-web-app/static/js/main.14ec261d.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb40500f.css",
-    "static/js/main.4592b0a0.js"
+    "static/css/main.e236a5aa.css",
+    "static/js/main.14ec261d.js"
   ]
 }
