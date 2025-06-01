@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/insurance-web-app/static/css/main.cec8bbc4.css",
+    "main.js": "/insurance-web-app/static/js/main.8ee8377f.js",
+    "static/media/call-button.jpg": "/insurance-web-app/static/media/call-button.116f16e34b95a1211d90.jpg",
+    "static/media/payment-poster.webp": "/insurance-web-app/static/media/payment-poster.1634182956e82894e274.webp",
+    "index.html": "/insurance-web-app/index.html",
+    "main.cec8bbc4.css.map": "/insurance-web-app/static/css/main.cec8bbc4.css.map",
+    "main.8ee8377f.js.map": "/insurance-web-app/static/js/main.8ee8377f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cec8bbc4.css",
+    "static/js/main.8ee8377f.js"
+  ]
+}
