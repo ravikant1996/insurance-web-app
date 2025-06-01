@@ -1,0 +1,21 @@
+{
+  "name": "insurance-web-app",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://ravikantdev.github.io/insurance-web-app",// add url
+  ...
+}
+
+"scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "predeploy": "npm run build", //add code
+  "deploy": "gh-pages -d build" //add code
+}
+
+
+If on Windows and rm -rf doesn't work, just manually delete the build folder before running the next steps.
+rm -rf build
+
+npm run build
+npm run deploy

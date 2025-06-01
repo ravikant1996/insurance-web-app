@@ -1,13 +1,14 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/navbar/Navbar';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Home from './screens/home/Home';
 import HelpSupport from './screens/helpsupport/HelpSupport';
 import BecomeAgent from './screens/becomeagent/BecomeAgent';
 import PayPremium from './screens/payment/PayPremium';
+import Navbar from './components/navbar/Navbar';
 
-const App = () => {
+const App: React.FC = () => {
   return (
-    <Router>
+    <>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -15,7 +16,7 @@ const App = () => {
         <Route path="/become-agent" element={<BecomeAgent />} />
         <Route path="/pay-premium" element={<PayPremium />} />
       </Routes>
-    </Router>
+    </>
   );
 };
 
