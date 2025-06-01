@@ -1,26 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Navbar from './components/navbar/Navbar';
+import Home from './screens/home/Home';
+import HelpSupport from './screens/helpsupport/HelpSupport';
+import BecomeAgent from './screens/becomeagent/BecomeAgent';
+import PayPremium from './screens/payment/PayPremium';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/help-support" element={<HelpSupport />} />
+        <Route path="/become-agent" element={<BecomeAgent />} />
+        <Route path="/pay-premium" element={<PayPremium />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;
